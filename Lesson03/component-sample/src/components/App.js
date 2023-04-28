@@ -5,6 +5,9 @@ import React from "react";
 import StyleSample from "./StyleSample";
 import StyleSample02 from "./StyleSample02";
 import EventComp from "./EventComp";
+import StateSample from "./StateSample";
+import Counter from "./Counter";
+import Footer from "./Footer";
 
 // function App() {
 
@@ -35,10 +38,16 @@ class App extends React.Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <EventComp/>
+          {/* <EventComp/> */}
           {/* <StyleSample02/> */}
           {/* <StyleSample/> */}
           {/* <BlogMain/> */}
+
+          {/* <StateSample/> */}
+
+          {/* <Counter/> */}
+
+          <Footer/>
         </header>
       </div>
     );

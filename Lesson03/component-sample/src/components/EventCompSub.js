@@ -1,11 +1,12 @@
 import React, { Component } from "react";
+import EventCompSubSub from "./EventCompSubSub";
 
 export class EventCompSub extends Component {
-  clickHandler = () => {
-    // console.log("EventCompSub clickHandler");
-    // alert("EventCompSub clickHandler");
-    this.props.setNumber('234 (fromEventCompSub)');
-  };
+  // clickHandler = () => {
+  //   // console.log("EventCompSub clickHandler");
+  //   // alert("EventCompSub clickHandler");
+  //   this.props.setNumber('234 (fromEventCompSub)');
+  // };
 
   render() {
     console.log("EventCompSub props", this.props);
@@ -16,8 +17,9 @@ export class EventCompSub extends Component {
         <hr />
         Age: {this.props.age}
         <br />
-        <button onClick={this.clickHandler}>Click(EventCompSub)</button>
+        {/* <button onClick={this.clickHandler}>Click(EventCompSub)</button> */}
         {/* <button onClick={ this.props.setNumber(123)}>Click(EventCompSub)</button> */}
+        <EventCompSubSub setNumber={this.props.setNumber} name="Tommy"/>
       </div>
     );
   }
