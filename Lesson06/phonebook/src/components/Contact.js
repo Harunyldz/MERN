@@ -5,7 +5,7 @@ import Form from './Form'
 export class Contact extends Component {
 
   /**
-   * contacts dizini içine ekleme yapacağımız için state olarak tanımladık
+   * contacts dizini içine ekleme yapacağımız için ve sadece bu alan render edilsin istediğimizden state olarak tanımladık
    *  */
   state = {
     contacts: [
