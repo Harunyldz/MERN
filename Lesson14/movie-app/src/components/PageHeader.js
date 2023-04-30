@@ -47,9 +47,9 @@ export default class PageHeader extends Component {
               <Menu.Item as ={Link} to='/'>
                 <Image size='mini' src={logo} />
               </Menu.Item>
-              <Menu.Item as={Link} to='/' header>Project Name</Menu.Item>
+              <Menu.Item as={Link} to='/' header>Movie App</Menu.Item>
               <Menu.Item as={Link} to='/Add'>Add</Menu.Item>
-              <Menu.Item as={Link} to='/List'>Lists</Menu.Item>
+              <Menu.Item as={Link} to='/List'>List</Menu.Item>
             </Container>
           </Menu>
         </InView>
