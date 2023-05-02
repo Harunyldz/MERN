@@ -8,10 +8,6 @@ export class AxiosSample extends Component {
 
     componentDidMount() {
 
-    
-        this.setState({ loading: true })
-        //Calling the API
-      
         this.setState({ loading: true })
         //Calling the API
         axios.get('https://jsonplaceholder.typicode.com/users')
