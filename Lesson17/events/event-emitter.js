@@ -15,7 +15,10 @@ eventEmitter.on('sayhi', (name)=>{
 eventEmitter.emit('sayhi')
 
 //trigger an event once
-// eventEmitter.once('sayhi')
+// eventEmitter.once('sayhi', (name)=>{
+//     console.log('Hi..!',name)
+// })
+
 
 let counter=0
 setInterval(()=>{
