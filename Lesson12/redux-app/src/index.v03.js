@@ -18,7 +18,7 @@ function counterReducer(state={count:0},action){
 // create a store
 const myStore=createStore(counterReducer);
 
-//show the sate from myStore
+//show the state from myStore
 myStore.subscribe(()=>{console.log("STORE DATA(State lists)=>",myStore.getState())})
 
 //create an action and dispatch the action01 to the store
